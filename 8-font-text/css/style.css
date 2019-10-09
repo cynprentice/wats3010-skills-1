@@ -1,0 +1,123 @@
+/*
+3. Use this color scheme: body background color #b5c678
+4. Set default font size to 1.3rem
+*/
+
+body {
+    background-color: #b5c678;
+    font-size:1.3rem;
+}
+
+/*
+3. Use this color scheme: article background color #0c374d
+5. Set article margin to T:2rem R:10% B:2rem L:10%
+6. Set article padding to 2rem
+
+?. Change article font color to white to match image in text-fonts.png
+?. Add rounded corners to articles to match image in text-fonts.png
+*/
+article {
+    background-color: #0c374d;
+    margin: 2rem 10%;
+    padding: 2rem;
+    color: white;
+    border-radius: 25px;
+}
+
+/*
+10. For the article paragraph, set the margin to 3rem.
+*/
+article p {
+    margin: 3rem;
+}
+
+/*
+11. Set the first letter (article p:first-letter) of each article to a font size of 3rem.
+*/
+article p:first-letter {
+    font-size: 3rem;
+}
+
+
+/*
+For headers, align the text to center
+*/
+h1, h2, h3, h4, h5, h6 {
+    color: #0c374d;
+    text-align: center;
+}
+
+
+/*
+For h2 increase letter spacing to .3rem
+*/
+h2 {
+    letter-spacing:.3rem;
+}
+
+
+/*
+9. For the super script style the underline away and make the text black with a red hover. 
+ Set the font size to 1rem.
+*/
+sup {
+    color: black;
+    font-size:1rem;
+}
+
+sup a:visited {
+    color: black;
+}
+sup a {
+    text-decoration: none;
+}
+sup a:hover {
+    color:red;
+}
+
+
+
+/*
+12. The footer should appear black with no underlines for links and appear gray on hover.
+*/
+
+footer cite a{
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+/* Set Font Classes
+    2 built in serif fonts
+    2 build in sans serif fonts
+    2 fonts using CDN from google fonts
+*/
+.times-new-roman {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.georgia {
+    font-family: Georgia, serif;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.indie-flower {
+    font-family: 'Indie Flower', cursive;
+}
+
+.nova-mono {
+    font-family: 'Nova Mono', monospace;
+}
